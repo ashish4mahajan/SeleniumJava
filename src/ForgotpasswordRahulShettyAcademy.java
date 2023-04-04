@@ -47,8 +47,6 @@ public class ForgotpasswordRahulShettyAcademy {
 		driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
 		Thread.sleep(4000);
 	    driver.close();
-	    
-	    /// updated
 		
 	}
 
