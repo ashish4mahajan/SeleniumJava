@@ -10,9 +10,12 @@ public class Sibling_Parent_Locator {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
       // Relative Xpath
+	  // parent to child traversing
 		
 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
 		
+	  //child to parent traversing
+		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
 
 	}
 
