@@ -41,6 +41,7 @@ public class LoopsInDropDown {
 			driver.findElement(By.id("hrefIncAdt")).click();
 		}
 		driver.findElement(By.id("btnclosepaxoption")).click();
+		Assert.assertEquals(driver.findElement(By.id("divpaxinfo")).getText(), "3 Adult");
 		System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
 		Thread.sleep(1000);
 	
