@@ -14,8 +14,7 @@ public class HandlingCalender {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='BLR']")).click();
 		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
-		System.out.println(driver.findElement(By.name("ctl00$mainContent$view_date2")).isEnabled());
-//		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_0")).click();
+		
 		}
 
 }
